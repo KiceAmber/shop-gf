@@ -1,0 +1,11 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  # 数据库配置
+  gen:
+    dao:
+      - link: "mysql:root:root@tcp(127.0.0.1:3306)/shop"
+        removePrefix: "gf_"
+        descriptionTag: true
+        noModelComment: true
