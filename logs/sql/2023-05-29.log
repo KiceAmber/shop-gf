@@ -1,0 +1,2 @@
+2023-05-29 22:34:33.078 [DEBU] {fe256d2ce1a363176e122426de414b3d} [  3 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-29 22:34:33.084 [DEBU] {fe256d2ce1a363176e122426de414b3d} [  6 ms] [default] [shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://xxx','https://xxx',1,'2023-05-29 22:34:33','2023-05-29 22:34:33') 
