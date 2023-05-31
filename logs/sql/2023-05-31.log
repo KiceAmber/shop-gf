@@ -1,0 +1,10 @@
+2023-05-31 16:14:03.901 [DEBU] {a0a387f9462c641735d5c62330651e8c} [ 11 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-31 16:14:03.908 [DEBU] {a0a387f9462c641735d5c62330651e8c} [  7 ms] [default] [shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://xxxxxx','https://xxxxx',2,'2023-05-31 16:14:03','2023-05-31 16:14:03') 
+2023-05-31 16:18:12.838 [DEBU] {5372faef802c641736d5c623ee2c6cd1} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-05-31 16:18:12.838 [DEBU] {5372faef802c641736d5c623ee2c6cd1} [  0 ms] [default] [shop] [rows:1  ] [txid:1] DELETE FROM `rotation_info` WHERE `id`=9
+2023-05-31 16:18:12.840 [DEBU] {5372faef802c641736d5c623ee2c6cd1} [  1 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-05-31 16:41:30.666 [DEBU] {2801fa64c62d64175d22367178f6d58f} [  2 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-05-31 16:41:30.669 [DEBU] {2801fa64c62d64175d22367178f6d58f} [  3 ms] [default] [shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://xxxxxx','https://xxxxx',1,'2023-05-31 16:41:30','2023-05-31 16:41:30') 
+2023-05-31 16:41:43.517 [DEBU] {168b0963c92d64175e223671e39fecf2} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-05-31 16:41:43.518 [DEBU] {168b0963c92d64175e223671e39fecf2} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `rotation_info` SET `deleted_at`='2023-05-31 16:41:43' WHERE (`id`=10) AND `deleted_at` IS NULL
+2023-05-31 16:41:43.520 [DEBU] {168b0963c92d64175e223671e39fecf2} [  2 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
