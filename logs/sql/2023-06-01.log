@@ -1,0 +1,21 @@
+2023-06-01 16:01:28.192 [DEBU] {372bbc972b7a641777493004c7d8ce61} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-01 16:01:28.194 [DEBU] {372bbc972b7a641777493004c7d8ce61} [  2 ms] [default] [shop] [rows:7  ] [txid:1] SHOW FULL COLUMNS FROM `rotation_info`
+2023-06-01 16:01:28.195 [DEBU] {372bbc972b7a641777493004c7d8ce61} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `rotation_info` SET `pic_url`='https://123',`link`='https://3455',`sort`=2,`updated_at`='2023-06-01 16:01:28' WHERE (`id`=8) AND `deleted_at` IS NULL
+2023-06-01 16:01:28.198 [DEBU] {372bbc972b7a641777493004c7d8ce61} [  2 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-01 16:05:37.746 [DEBU] {91bc41b2657a64177849300484fcd189} [  2 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-01 16:05:37.747 [DEBU] {91bc41b2657a64177849300484fcd189} [  1 ms] [default] [shop] [rows:1  ] [txid:2] UPDATE `rotation_info` SET `pic_url`='https://123',`link`='https://3455',`sort`=2,`updated_at`='2023-06-01 16:05:37' WHERE (`id`=8) AND `deleted_at` IS NULL
+2023-06-01 16:05:37.749 [DEBU] {91bc41b2657a64177849300484fcd189} [  2 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-06-01 16:27:26.173 [DEBU] {3a53a056967b6417b8d7882337cb4663} [  0 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-01 16:27:26.175 [DEBU] {3a53a056967b6417b8d7882337cb4663} [  2 ms] [default] [shop] [rows:7  ] [txid:1] SHOW FULL COLUMNS FROM `rotation_info`
+2023-06-01 16:27:26.176 [DEBU] {3a53a056967b6417b8d7882337cb4663} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `rotation_info` SET `pic_url`='https://123',`link`='https://88888885',`sort`=2,`updated_at`='2023-06-01 16:27:26' WHERE (`id`=8) AND `deleted_at` IS NULL
+2023-06-01 16:27:26.178 [DEBU] {3a53a056967b6417b8d7882337cb4663} [  2 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-01 16:30:40.071 [DEBU] {8360df7bc37b6417b9d78823d9750e0f} [  1 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-01 16:30:40.072 [DEBU] {8360df7bc37b6417b9d78823d9750e0f} [  1 ms] [default] [shop] [rows:0  ] [txid:2] UPDATE `rotation_info` SET `pic_url`='https://123',`link`='https://88888885',`sort`=2,`updated_at`='2023-06-01 16:30:40' WHERE (`id`=4) AND `deleted_at` IS NULL
+2023-06-01 16:30:40.072 [DEBU] {8360df7bc37b6417b9d78823d9750e0f} [  0 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-06-01 16:32:00.291 [DEBU] {f5cc5a29d67b6417bad7882326cc76a2} [  1 ms] [default] [shop] [rows:0  ] [txid:3] BEGIN
+2023-06-01 16:32:00.292 [DEBU] {f5cc5a29d67b6417bad7882326cc76a2} [  0 ms] [default] [shop] [rows:0  ] [txid:3] UPDATE `rotation_info` SET `pic_url`='https://12666663',`link`='https://6666',`sort`=3,`updated_at`='2023-06-01 16:32:00' WHERE (`id`=10) AND `deleted_at` IS NULL
+2023-06-01 16:32:00.292 [DEBU] {f5cc5a29d67b6417bad7882326cc76a2} [  0 ms] [default] [shop] [rows:0  ] [txid:3] COMMIT
+2023-06-01 16:32:22.842 [DEBU] {6df86d69db7b6417bbd78823b8835099} [  2 ms] [default] [shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://11111','https://22222',3,'2023-06-01 16:32:22','2023-06-01 16:32:22') 
+2023-06-01 16:32:31.805 [DEBU] {cd50ba7fdd7b6417bcd7882332e239bb} [  1 ms] [default] [shop] [rows:0  ] [txid:4] BEGIN
+2023-06-01 16:32:31.806 [DEBU] {cd50ba7fdd7b6417bcd7882332e239bb} [  1 ms] [default] [shop] [rows:1  ] [txid:4] UPDATE `rotation_info` SET `pic_url`='https://12666663',`link`='https://6666',`sort`=3,`updated_at`='2023-06-01 16:32:31' WHERE (`id`=11) AND `deleted_at` IS NULL
+2023-06-01 16:32:31.808 [DEBU] {cd50ba7fdd7b6417bcd7882332e239bb} [  2 ms] [default] [shop] [rows:0  ] [txid:4] COMMIT
