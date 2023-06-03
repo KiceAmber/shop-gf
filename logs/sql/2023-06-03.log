@@ -1,0 +1,11 @@
+2023-06-03 10:33:31.320 [DEBU] {06ebe1586f056517ca1760152c5ba2cf} [  9 ms] [default] [shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2023-06-03 10:33:31.325 [DEBU] {06ebe1586f056517ca1760152c5ba2cf} [  4 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
+2023-06-03 10:33:31.326 [DEBU] {06ebe1586f056517ca1760152c5ba2cf} [  0 ms] [default] [shop] [rows:0  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 5,5
+2023-06-03 10:33:41.984 [DEBU] {90360ed571056517cb176015c0aea865} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
+2023-06-03 10:33:41.985 [DEBU] {90360ed571056517cb176015c0aea865} [  1 ms] [default] [shop] [rows:3  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 0,5
+2023-06-03 10:33:57.804 [DEBU] {8263018475056517cc176015bca78fa4} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
+2023-06-03 10:33:57.804 [DEBU] {8263018475056517cc176015bca78fa4} [  0 ms] [default] [shop] [rows:1  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 2,2
+2023-06-03 10:34:27.519 [DEBU] {0a1b216f7c056517cd176015849f707c} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
+2023-06-03 10:34:27.519 [DEBU] {0a1b216f7c056517cd176015849f707c} [  0 ms] [default] [shop] [rows:1  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 2,2
+2023-06-03 10:34:35.707 [DEBU] {3f882b577e056517ce176015e8a662b1} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
+2023-06-03 10:34:35.707 [DEBU] {3f882b577e056517ce176015e8a662b1} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 0,2
