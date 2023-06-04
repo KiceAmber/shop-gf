@@ -9,3 +9,5 @@
 2023-06-03 10:34:27.519 [DEBU] {0a1b216f7c056517cd176015849f707c} [  0 ms] [default] [shop] [rows:1  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 2,2
 2023-06-03 10:34:35.707 [DEBU] {3f882b577e056517ce176015e8a662b1} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `rotation_info` WHERE `deleted_at` IS NULL
 2023-06-03 10:34:35.707 [DEBU] {3f882b577e056517ce176015e8a662b1} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`pic_url`,`link`,`sort`,`created_at`,`updated_at` FROM `rotation_info` WHERE `deleted_at` IS NULL LIMIT 0,2
+2023-06-03 11:55:04.338 [DEBU] {e5d1e197e20965174a1e461b780981dc} [  2 ms] [default] [shop] [rows:9  ] SHOW FULL COLUMNS FROM `position_info`
+2023-06-03 11:55:04.341 [DEBU] {e5d1e197e20965174a1e461b780981dc} [  3 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('111','333','222',0,1,'2023-06-03 11:55:04','2023-06-03 11:55:04') 

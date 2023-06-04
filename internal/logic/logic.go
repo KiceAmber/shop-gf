@@ -5,5 +5,6 @@
 package logic
 
 import (
+	_ "rime-shop-gf/internal/logic/position"
 	_ "rime-shop-gf/internal/logic/rotation"
 )

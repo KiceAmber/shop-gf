@@ -1,0 +1,24 @@
+2023-06-04 07:43:49.044 [DEBU] {6701b92bc14a6517d9b6b03df45290e8} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-04 07:43:49.046 [DEBU] {6701b92bc14a6517d9b6b03df45290e8} [  2 ms] [default] [shop] [rows:9  ] [txid:1] SHOW FULL COLUMNS FROM `position_info`
+2023-06-04 07:43:49.046 [DEBU] {6701b92bc14a6517d9b6b03df45290e8} [  0 ms] [default] [shop] [rows:0  ] [txid:1] UPDATE `position_info` SET `deleted_at`='2023-06-04 07:43:49' WHERE (`id`=1) AND `deleted_at` IS NULL
+2023-06-04 07:43:49.046 [DEBU] {6701b92bc14a6517d9b6b03df45290e8} [  0 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-04 07:46:26.220 [DEBU] {7d7a2ac4e54a6517dab6b03de26ec585} [  1 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-04 07:46:26.221 [DEBU] {7d7a2ac4e54a6517dab6b03de26ec585} [  1 ms] [default] [shop] [rows:1  ] [txid:2] UPDATE `position_info` SET `deleted_at`='2023-06-04 07:46:26' WHERE (`id`=3) AND `deleted_at` IS NULL
+2023-06-04 07:46:26.224 [DEBU] {7d7a2ac4e54a6517dab6b03de26ec585} [  3 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-06-04 07:48:33.095 [DEBU] {c5be8c4e034b6517c0af9920fd3906c6} [  0 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-04 07:48:33.097 [DEBU] {c5be8c4e034b6517c0af9920fd3906c6} [  1 ms] [default] [shop] [rows:9  ] [txid:1] SHOW FULL COLUMNS FROM `position_info`
+2023-06-04 07:48:33.097 [DEBU] {c5be8c4e034b6517c0af9920fd3906c6} [  0 ms] [default] [shop] [rows:1  ] [txid:1] DELETE FROM `position_info` WHERE `id`=3
+2023-06-04 07:48:33.099 [DEBU] {c5be8c4e034b6517c0af9920fd3906c6} [  2 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-04 08:20:35.269 [DEBU] {6e3303d9c24c6517c280282d9741aad0} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-04 08:20:35.271 [DEBU] {6e3303d9c24c6517c280282d9741aad0} [  2 ms] [default] [shop] [rows:9  ] [txid:1] SHOW FULL COLUMNS FROM `position_info`
+2023-06-04 08:20:35.271 [DEBU] {6e3303d9c24c6517c280282d9741aad0} [  0 ms] [default] [shop] [rows:0  ] [txid:1] UPDATE `position_info` SET `pic_url`='111',`goods_name`='测试22',`link`='11212',`sort`=0,`goods_id`=12,`updated_at`='2023-06-04 08:20:35' WHERE (`id`=2) AND `deleted_at` IS NULL
+2023-06-04 08:20:35.272 [DEBU] {6e3303d9c24c6517c280282d9741aad0} [  1 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-04 08:21:15.889 [DEBU] {fb67ff4dcc4c6517c380282d7df0fa64} [  3 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('555','5678','2333',0,112121,'2023-06-04 08:21:15','2023-06-04 08:21:15') 
+2023-06-04 08:21:31.472 [DEBU] {e0830befcf4c6517c480282d1fc669ae} [  0 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-04 08:21:31.473 [DEBU] {e0830befcf4c6517c480282d1fc669ae} [  0 ms] [default] [shop] [rows:1  ] [txid:2] UPDATE `position_info` SET `pic_url`='111',`goods_name`='测试22',`link`='11212',`sort`=0,`goods_id`=12,`updated_at`='2023-06-04 08:21:31' WHERE (`id`=4) AND `deleted_at` IS NULL
+2023-06-04 08:21:31.475 [DEBU] {e0830befcf4c6517c480282d1fc669ae} [  2 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
+2023-06-04 08:24:28.217 [DEBU] {e5c4b115f94c6517c580282d434d9aea} [  3 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('555','5678','2333',0,112121,'2023-06-04 08:24:28','2023-06-04 08:24:28') 
+2023-06-04 08:24:29.274 [DEBU] {2986b354f94c6517c680282de8584a2f} [  2 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('555','5678','2333',0,112121,'2023-06-04 08:24:29','2023-06-04 08:24:29') 
+2023-06-04 08:24:30.265 [DEBU] {bc78c18ff94c6517c780282dee65c9c4} [  3 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('555','5678','2333',0,112121,'2023-06-04 08:24:30','2023-06-04 08:24:30') 
+2023-06-04 08:24:56.884 [DEBU] {245a80c2ff4c6517c880282d956e4ed0} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `position_info` WHERE `deleted_at` IS NULL
+2023-06-04 08:24:56.884 [DEBU] {245a80c2ff4c6517c880282d956e4ed0} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`pic_url`,`link`,`goods_name`,`goods_id`,`sort`,`created_at`,`updated_at` FROM `position_info` WHERE `deleted_at` IS NULL LIMIT 2,2
