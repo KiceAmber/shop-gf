@@ -5123,7 +5123,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="1140" parent="377" name="id">
-      <AutoIncrement>15</AutoIncrement>
+      <AutoIncrement>16</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -6100,7 +6100,7 @@ parent_id</ColNames>
       <UnderlyingIndexName>unique_name</UnderlyingIndexName>
     </key>
     <column id="1310" parent="391" name="id">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>7</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -6384,7 +6384,7 @@ permission_id</ColNames>
       <UnderlyingIndexName>unique_index</UnderlyingIndexName>
     </key>
     <column id="1362" parent="396" name="id">
-      <AutoIncrement>12</AutoIncrement>
+      <AutoIncrement>11</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>

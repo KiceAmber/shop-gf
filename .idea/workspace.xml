@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d323af78-06b8-4fa4-bfed-7610df5f14bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/96911f86-4597-4143-8262-08c78158a514.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/96911f86-4597-4143-8262-08c78158a514.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/cmd/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/consts/consts.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/consts/consts.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/logic/logic.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logic/logic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/sql/2023-06-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/sql/2023-06-04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/logic/rotation/rotation.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logic/rotation/rotation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +54,11 @@
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/home/rime/Project/go/bin/gf",
+    "last_opened_file_path": "/home/rime/Project/go/src/goframe-shop-v2",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [

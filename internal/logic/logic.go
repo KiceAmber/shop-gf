@@ -6,6 +6,10 @@ package logic
 
 import (
 	_ "rime-shop-gf/internal/logic/admin"
+	_ "rime-shop-gf/internal/logic/bizctx"
+	_ "rime-shop-gf/internal/logic/login"
+	_ "rime-shop-gf/internal/logic/middleware"
 	_ "rime-shop-gf/internal/logic/position"
 	_ "rime-shop-gf/internal/logic/rotation"
+	_ "rime-shop-gf/internal/logic/session"
 )

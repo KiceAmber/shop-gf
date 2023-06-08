@@ -34,7 +34,7 @@ func (s *sRotation) Create(ctx context.Context, in model.RotationCreateInput) (o
 }
 
 func (s *sRotation) Delete(ctx context.Context, id uint) error {
-	return dao.RotationInfo.Transaction(ctx, func(ctx context.Context, tx gdb.TX) error { // TODO:
+	return dao.RotationInfo.Transaction(ctx, func(ctx context.Context, tx gdb.TX) error {
 		// 删除内容
 		_, err := dao.RotationInfo.Ctx(ctx).Where(g.Map{
 			dao.RotationInfo.Columns().Id: id,
