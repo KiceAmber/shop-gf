@@ -3,6 +3,7 @@ package controller
 import (
 	"context"
 	"rime-shop-gf/api/backend"
+	"rime-shop-gf/api/frontend"
 	"rime-shop-gf/internal/model"
 	"rime-shop-gf/internal/service"
 )
@@ -53,6 +54,25 @@ func (a *cRotation) List(ctx context.Context, req *backend.RotationGetListCommon
 	}
 
 	return &backend.RotationGetListCommonRes{
+		List:  getListRes.List,
+		Page:  getListRes.Page,
+		Size:  getListRes.Size,
+		Total: getListRes.Total,
+	}, nil
+}
+
+// ListFrontend 前台轮播图查询列表
+func (a *cRotation) ListFrontend(ctx context.Context, req *frontend.RotationGetListReq) (res *frontend.RotationGetListRes, err error) {
+	getListRes, err := service.Rotation().GetList(ctx, model.RotationGetListInput{
+		Page: req.Page,
+		Size: req.Size,
+		Sort: req.Sort,
+	})
+	if err != nil {
+		return nil, err
+	}
+
+	return &frontend.RotationGetListRes{
 		List:  getListRes.List,
 		Page:  getListRes.Page,
 		Size:  getListRes.Size,
