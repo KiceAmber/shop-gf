@@ -8,6 +8,7 @@ import (
 	"github.com/gogf/gf/v2/util/grand"
 	"rime-shop-gf/internal/dao"
 	"rime-shop-gf/internal/model"
+	"rime-shop-gf/internal/model/entity"
 	"rime-shop-gf/internal/service"
 	"rime-shop-gf/utility"
 )
@@ -39,22 +40,22 @@ func (s *sAdmin) Create(ctx context.Context, in model.AdminCreateInput) (out mod
 	return model.AdminCreateOutput{AdminId: int(lastInsertID)}, err
 }
 
-//func (s *sAdmin) GetUserByUserNamePassword(ctx context.Context, in model.UserLoginInput) map[string]interface{} {
-//	//验证账号密码是否正确
-//	adminInfo := entity.AdminInfo{}
-//	err := dao.AdminInfo.Ctx(ctx).Where(dao.AdminInfo.Columns().Name, in.Name).Scan(&adminInfo)
-//	if err != nil {
-//		return nil
-//	}
-//	if utility.EncryptPassword(in.Password, adminInfo.UserSalt) != adminInfo.Password {
-//		return nil
-//	} else {
-//		return g.Map{
-//			"id":       adminInfo.Id,
-//			"username": adminInfo.Name,
-//		}
-//	}
-//}
+func (s *sAdmin) GetUserByUserNamePassword(ctx context.Context, in model.UserLoginInput) map[string]interface{} {
+	//验证账号密码是否正确
+	adminInfo := entity.AdminInfo{}
+	err := dao.AdminInfo.Ctx(ctx).Where(dao.AdminInfo.Columns().Name, in.Name).Scan(&adminInfo)
+	if err != nil {
+		return nil
+	}
+	if utility.EncryptPassword(in.Password, adminInfo.UserSalt) != adminInfo.Password {
+		return nil
+	} else {
+		return g.Map{
+			"id":       adminInfo.Id,
+			"username": adminInfo.Name,
+		}
+	}
+}
 
 // Delete 删除
 func (s *sAdmin) Delete(ctx context.Context, id uint) error {

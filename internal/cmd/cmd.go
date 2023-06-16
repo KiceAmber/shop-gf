@@ -28,6 +28,7 @@ var (
 					controller.Position, // 手工位
 					controller.Admin,    // 管理员
 					controller.Login,    // 后台用户登录
+					controller.Data,     // 数据大屏
 				)
 			})
 			s.Run()
