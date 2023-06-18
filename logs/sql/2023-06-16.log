@@ -1,0 +1,7 @@
+2023-06-16 21:50:41.808 [DEBU] {f36e9dbfee276917be478776a78467a3} [ 10 ms] [default] [shop] [rows:15 ] SHOW FULL COLUMNS FROM `order_info`
+2023-06-16 21:50:41.815 [DEBU] {f36e9dbfee276917be478776a78467a3} [  6 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `order_info` WHERE (`created_at` BETWEEN '2023-06-16 00:00:00' AND '2023-06-16 23:59:59') AND (id)
+2023-06-16 21:50:49.874 [DEBU] {435909a1f0276917bf47877623a48fa6} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `order_info` WHERE (`created_at` BETWEEN '2023-06-16 00:00:00' AND '2023-06-16 23:59:59') AND (id)
+2023-06-16 21:50:51.498 [DEBU] {54c8d401f1276917c0478776a8807892} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `order_info` WHERE (`created_at` BETWEEN '2023-06-16 00:00:00' AND '2023-06-16 23:59:59') AND (id)
+2023-06-16 21:50:54.087 [DEBU] {a01e169cf1276917c1478776931e21c4} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `order_info` WHERE (`created_at` BETWEEN '2023-06-16 00:00:00' AND '2023-06-16 23:59:59') AND (id)
+2023-06-16 21:50:59.369 [DEBU] {38bbf4d6f2276917c247877672c5973d} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `order_info` WHERE (`created_at` BETWEEN '2023-06-16 00:00:00' AND '2023-06-16 23:59:59') AND (id)
+2023-06-16 21:51:00.991 [DEBU] {b5b0a137f3276917c34787764fcdf81f} [  0 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `order_info` WHERE (`created_at` BETWEEN '2023-06-16 00:00:00' AND '2023-06-16 23:59:59') AND (id)

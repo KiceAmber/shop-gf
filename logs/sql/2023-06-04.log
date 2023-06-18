@@ -22,3 +22,13 @@
 2023-06-04 08:24:30.265 [DEBU] {bc78c18ff94c6517c780282dee65c9c4} [  3 ms] [default] [shop] [rows:1  ] INSERT INTO `position_info`(`pic_url`,`goods_name`,`link`,`sort`,`goods_id`,`created_at`,`updated_at`) VALUES('555','5678','2333',0,112121,'2023-06-04 08:24:30','2023-06-04 08:24:30') 
 2023-06-04 08:24:56.884 [DEBU] {245a80c2ff4c6517c880282d956e4ed0} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `position_info` WHERE `deleted_at` IS NULL
 2023-06-04 08:24:56.884 [DEBU] {245a80c2ff4c6517c880282d956e4ed0} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`pic_url`,`link`,`goods_name`,`goods_id`,`sort`,`created_at`,`updated_at` FROM `position_info` WHERE `deleted_at` IS NULL LIMIT 2,2
+2023-06-04 10:31:44.679 [DEBU] {55385e16eb536517c96554719dc23ba1} [  1 ms] [default] [shop] [rows:8  ] SHOW FULL COLUMNS FROM `admin_info`
+2023-06-04 10:31:44.682 [DEBU] {55385e16eb536517c96554719dc23ba1} [  2 ms] [default] [shop] [rows:1  ] INSERT INTO `admin_info`(`name`,`password`,`role_ids`,`created_at`,`updated_at`,`user_salt`,`is_admin`) VALUES('Tom','fb594ab8fe5356d6c1c820dd40f5f792','3','2023-06-04 10:31:44','2023-06-04 10:31:44','oXqO4Q8aA4',0) 
+2023-06-04 10:32:23.404 [DEBU] {73f6981af4536517ca6554719a2c2f59} [  1 ms] [default] [shop] [rows:1  ] SELECT COUNT(1) FROM `admin_info`
+2023-06-04 10:32:23.405 [DEBU] {73f6981af4536517ca6554719a2c2f59} [  0 ms] [default] [shop] [rows:2  ] SELECT `id`,`name`,`role_ids`,`is_admin`,`created_at`,`updated_at` FROM `admin_info` LIMIT 2,2
+2023-06-04 10:34:12.438 [DEBU] {6e527b7d0d546517cb655471e9ac41b7} [  1 ms] [default] [shop] [rows:0  ] [txid:1] BEGIN
+2023-06-04 10:34:12.439 [DEBU] {6e527b7d0d546517cb655471e9ac41b7} [  1 ms] [default] [shop] [rows:1  ] [txid:1] UPDATE `admin_info` SET `name`='Jack',`password`='f734efe1cdae14ea2f6a4fc48e757976',`role_ids`='2',`updated_at`='2023-06-04 10:34:12',`user_salt`='fkkc9Epui4',`is_admin`=1 WHERE `id`=16
+2023-06-04 10:34:12.441 [DEBU] {6e527b7d0d546517cb655471e9ac41b7} [  2 ms] [default] [shop] [rows:0  ] [txid:1] COMMIT
+2023-06-04 10:35:31.362 [DEBU] {7b3fc7dd1f546517cc655471d50126c6} [  1 ms] [default] [shop] [rows:0  ] [txid:2] BEGIN
+2023-06-04 10:35:31.362 [DEBU] {7b3fc7dd1f546517cc655471d50126c6} [  0 ms] [default] [shop] [rows:1  ] [txid:2] DELETE FROM `admin_info` WHERE `id`=15
+2023-06-04 10:35:31.364 [DEBU] {7b3fc7dd1f546517cc655471d50126c6} [  2 ms] [default] [shop] [rows:0  ] [txid:2] COMMIT
