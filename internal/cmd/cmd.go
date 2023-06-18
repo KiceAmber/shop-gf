@@ -29,6 +29,7 @@ var (
 					controller.Admin,    // 管理员
 					controller.Login,    // 后台用户登录
 					controller.Data,     // 数据大屏
+					controller.Role,     // 用户角色
 				)
 			})
 			s.Run()

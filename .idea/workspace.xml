@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d323af78-06b8-4fa4-bfed-7610df5f14bf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/cmd/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/cmd/cmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/consts/consts.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/consts/consts.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/logic/admin/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logic/admin/admin.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/logic/logic.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logic/logic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/service/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/service/admin.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Go"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
